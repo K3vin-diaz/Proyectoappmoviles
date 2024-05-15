@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imagenProducto"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/desc_imagen_producto" />
+
+    <TextView
+        android:id="@+id/nombreProducto"
+        android:layout_width="wrap_content"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_height="wrap_content"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/descripcionProducto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/precioProducto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/stockProducto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/btnAgregarCarrito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/agregar_al_carrito" />
+    <Button
+        android:id="@+id/btnDecrement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="-" />
+
+    <TextView
+        android:id="@+id/tvCantidad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnIncrement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+" />
+
+</LinearLayout>

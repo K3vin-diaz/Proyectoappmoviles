@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "264528458856",
+    "project_id": "proyecto-app-moviles-9992b",
+    "storage_bucket": "proyecto-app-moviles-9992b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:264528458856:android:9b97ef79717497d4d1f7dd",
+        "android_client_info": {
+          "package_name": "diaz.hurtado.proyecto_app_moviles"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOsvf2nI98V7JwZELvDBvKPxRrUgqQrTs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

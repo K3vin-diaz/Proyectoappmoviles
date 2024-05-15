@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/efecto"
+        android:orientation="vertical"
+        android:paddingTop="20dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/robotoblackitalic"
+            android:text="@string/eztek"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="85dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/robotoblackitalic"
+            android:paddingBottom="15dp"
+            android:text="@string/the_best_way_to_get_a_computer"
+            android:textAlignment="center"
+            android:textColor="@color/violeta"
+            android:textSize="25dp" />
+
+
+        <EditText
+            android:id="@+id/txtCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:fontFamily="@font/robotoregular"
+            android:hint="@string/correo"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/txtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:fontFamily="@font/robotoregular"
+            android:hint="@string/contrase_a"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_margin="30dp"
+            android:backgroundTint="@color/blue"
+            android:fontFamily="@font/robotobold"
+            android:text="@string/entrar"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/lblOlvidoContra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:fontFamily="@font/robotoregular"
+            android:text="@string/olvidaste_tu_contrase_a"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/lblRegistrarse"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="@font/robotoregular"
+            android:paddingTop="60dp"
+            android:text="@string/reg_strate_aqu"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>
